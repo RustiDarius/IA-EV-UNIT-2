@@ -1,0 +1,92 @@
+
+.active {   background-color: #717171;}
+body{
+    width:900px;
+    margin: 0 auto;
+}
+h1{
+    background-color:#a8d08d;
+    color:#305595;
+    font-weight: bold;
+    font-size: 40;
+    font-style: oblique;
+    text-align: right;
+    border:5px solid black;
+}
+h2{
+    font-weight: 600;
+    color:#5a873e;
+    font-style: oblique;
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    text-align: right;
+    color:#0099ff;  
+}
+a{
+    color:#2878ca;
+}
+header{
+    background-color:#ccff99; 
+}
+img{
+    border-radius: 10px;
+}
+table,tr,th,td,sl{  
+    border: 3px solid #6187cd;
+    border-collapse: collapse;
+    margin-right: 300px;
+    font-size:10;
+}
+
+section{
+    background-color:#deebf7;
+    border:2px solid #e99359;
+    
+}
+img{
+    width:600px; 
+    height:400px;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 0 5px;
+}
+.div1{
+    background-color:#5c7788;
+    margin:auto;
+}
+.column img {
+    height: 250px;
+    width: 250px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+ .mySlides {display:none;}
+
+.slideshow-container {
+  max-width: 400px;
+  position: relative;
+  margin-left:150px;
+}
+
+fade {-webkit-animation-name: fade;
+	   -webkit-animation-duration: 1.5s;
+	   animation-name: fade;
+       animation-duration: 1.5s;}
+
+@-webkit-keyframes fade { from {opacity: .4} 
+  to {opacity: 1} }
+
+@keyframes fade {from {opacity: .4} 
+  to {opacity: 1} }
